@@ -1,0 +1,59 @@
+h1 {
+    color: brown;
+    margin:30px;
+}
+
+.header * {
+    border: solid;
+}
+
+
+.header{ 
+    background-color: #14FC8C;
+     display: flex; 
+     justify-content: space-between; 
+}
+
+.menu{margin-right: 30px;}
+.menu a{margin-left :20px; margin-right : 20px;}
+
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.footer{
+display:flex;
+justify-content: space-end;
+
+}
+
+body{
+   background-color: #93E4FE;
+
+}
+p, h2  {text-align: center};
+
+a:link{color: blue};
+
+a:visited{color:white};
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.69;
+}
+
